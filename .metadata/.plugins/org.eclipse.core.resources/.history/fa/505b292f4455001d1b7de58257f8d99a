@@ -1,0 +1,8 @@
+package kodlama.io.rentACar.webApi.conttrollers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController //annatation
+public class BrandsController {
+
+}

@@ -1,0 +1,6 @@
+package kodlama.io.rentACar.entities.concrets;
+
+public class Brend {
+  private int id;
+  private String name;
+}

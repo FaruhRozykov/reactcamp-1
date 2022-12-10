@@ -1,0 +1,18 @@
+package kodlama.io.rentACar.webApi.conttrollers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import kodlama.io.rentACar.business.abstracts.BrandService;
+
+@RestController //annatation
+@RequestMapping("/api/brands")
+public class BrandsController {
+  private BrandService brandService;
+  
+  public public BrandsController(BrandService brandService) {
+	// TODO Auto-generated constructor stub
+       this.brandService = brandService;
+	  
+  }
+}

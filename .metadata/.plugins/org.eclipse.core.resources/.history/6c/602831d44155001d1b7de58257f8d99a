@@ -1,0 +1,23 @@
+package kodlama.io.rentACar.dataAccess.concrets;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import kodlama.io.rentACar.dataAccess.abstracts.BrandRepository;
+import kodlama.io.rentACar.entities.concrets.Brand;
+
+public class InMemeryBrandRepositery implements BrandRepository {
+
+	List<Brand>brands;
+	
+	public InMemeryBrandRepositery(){
+		brands = new ArrayList<Brand>();
+	}
+	
+	@Override
+	public List<Brand> getAll() {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+
+import antlr.collections.List;
+
+public interface  BrandRepository {
+   List getAll();
+    	
+    }
+
